@@ -14,7 +14,7 @@ def getChar(text):
     for sentence in text:
         for char in sentence:
             if char != ' ':
-                chars.append(char)
+                chars.append(char.lower())
 
     return chars
 
@@ -27,8 +27,6 @@ def getMostFrequentElement(list):
         if list.count(list[i]) > mostFrequentElementCount:
             mostFrequentElementCount = list.count(list[i])
             mostFrequentElementIndex = i
-
-    print(list[mostFrequentElementIndex])
 
     return list[mostFrequentElementIndex]
 
