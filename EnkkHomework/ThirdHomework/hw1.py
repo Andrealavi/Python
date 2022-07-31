@@ -64,8 +64,8 @@ while(word != 'stop'):
     elif word == ',':
         sentence = sentence + word
     else:
-        if sentence == '' or sentence[-1] in ('.', '!', '?'):
-            sentence = sentence + " " + word.capitalize()
+        if sentence == '':
+            sentence = word.capitalize()
         else:
             sentence = sentence + " " + word
         words.append(word)
@@ -73,9 +73,9 @@ while(word != 'stop'):
     word = input('Digit the word: ')
 
 for sentence in text:
-    print("\n\n\n", sentence)
+    print("\n\n\n{}".format(sentence))
 
-print("\n\n\n Let's make some statistics \n\n")
+print("\n\n\nLet's make some statistics \n\n")
 print("Number of words: ", len(words))
 print("Number of punctuation: ", len(punctuation))
 print("Number of sentences: ", len(text))
