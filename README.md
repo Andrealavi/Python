@@ -6,6 +6,8 @@ This repository is just a playground for my python exercises and small projects.
 
 In this folder there'll be exercises made by following Enkk's Hard Python course on Youtube. Exercises are about several topics regarding Python programming language
 
+[Hard Python Tutorial](https://github.com/Enkkfull/hard-python)
+
 ## Exercises
 
 In this folder there are some exercises taken from my school experience. They revolve around the use of input and output files.
